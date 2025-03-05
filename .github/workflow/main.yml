@@ -10,3 +10,4 @@ jobs:
     steps:
       - name: hello world
         run: ech0 "hello world"
+        sleep 10
