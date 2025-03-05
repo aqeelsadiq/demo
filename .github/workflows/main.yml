@@ -1,4 +1,3 @@
-# job testing on 
 name: check instance id
 on:
   push:
@@ -10,3 +9,6 @@ jobs:
     steps:
       - name: hello world
         run: echo "hello world"
+
+      - name: Sleep for 10 seconds
+        run: sleep 10
